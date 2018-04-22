@@ -18,7 +18,7 @@ using namespace std;
 /**
 * @brief Método que incia o projeto
 * @param[in] argc - total de argumentos passados
-* @param[in] argv[] - os arogumentos
+* @param[in] argv[] - os argumentos
 * @return atributo 0
 */
 int main(int argc, char* argv[]){

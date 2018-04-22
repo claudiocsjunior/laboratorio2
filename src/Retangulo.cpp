@@ -43,6 +43,7 @@ float Retangulo::getPerimetro() const {
 * @brief Efetua o calculo da área
 * @param[in] base para efetuar o calculo
 * @param[in] altura para efetuar o calculo
+* @return
 */
 void Retangulo::calcularArea(float& base, float& altura) {
 	area = (base * altura);
@@ -52,6 +53,7 @@ void Retangulo::calcularArea(float& base, float& altura) {
 * @brief Efetua o calculo do perímetro
 * @param[in] base para efetuar o calculo
 * @param[in] altura para efetuar o calculo
+* @return
 */
 void Retangulo::calcularPerimetro(float& base, float& altura) {
 	perimetro = 2*(base + altura);

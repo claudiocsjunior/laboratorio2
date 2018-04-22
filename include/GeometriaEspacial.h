@@ -54,30 +54,35 @@ public:
 	/**
 	* @brief Efetua os calculos relacionados a pirâmide
 	* @param[in] Recebe os atributos passados como parâmtros na execução
+	* @return
 	*/
 	void calcularPiramide(char* argv[]);
 
 	/**
 	* @brief Efetua os calculos relacionados ao cubo
 	* @param[in] Recebe os atributos passados como parâmtros na execução
+	* @return
 	*/
 	void calcularCubo(char* argv[]);
 
 	/**
 	* @brief Efetua os calculos relacionados ao paralelepipedo
 	* @param[in] Recebe os atributos passados como parâmtros na execução
+	* @return
 	*/
 	void calcularParalelepipedo(char* argv[]);
 
 	/**
 	* @brief Efetua os calculos relacionados ầ esfera
 	* @param[in] Recebe os atributos passados como parâmtros na execução
+	* @return
 	*/
 	void calcularEsfera(char* argv[]);
 
 	/**
 	* @brief Efetua o print dos calculos
 	* @param[in] string contendo a forma geométrica
+	* @return
 	*/
 	void print(string &formaGeometrica);
 };

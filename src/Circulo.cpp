@@ -42,6 +42,7 @@ float Circulo::getPerimetro() const {
 /**
 * @brief Efetua o calculo da área
 * @param[in] raio para efetuar o calculo
+* @return
 */
 void Circulo::calcularArea(float raio) {
 	area = (PI*(pow(raio, 2)));
@@ -51,6 +52,7 @@ void Circulo::calcularArea(float raio) {
 /**
 * @brief Efetua o calculo do perímetro
 * @param[in] raio para efetuar o calculo
+* @return
 */
 void Circulo::calcularPerimetro(float raio) {
 	perimetro = (2*(PI * raio));

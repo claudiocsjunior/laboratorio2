@@ -44,6 +44,7 @@ float Paralelepipedo::getVolume() const {
 * @param[in] aresta1 para efetuar o calculo
 * @param[in] aresta2 para efetuar o calculo
 * @param[in] aresta3 para efetuar o calculo
+* @return
 */
 void Paralelepipedo::calcularArea(float& aresta1, float& aresta2, float& aresta3) {
 	area = (2*(aresta1 * aresta2))+(2*(aresta1 * aresta3))+(2*(aresta2 * aresta3));
@@ -54,6 +55,7 @@ void Paralelepipedo::calcularArea(float& aresta1, float& aresta2, float& aresta3
 * @param[in] aresta1 para efetuar o calculo
 * @param[in] aresta2 para efetuar o calculo
 * @param[in] aresta3 para efetuar o calculo
+* @return
 */
 void Paralelepipedo::calcularVolume(float& aresta1, float& aresta2, float& aresta3) {
 	volume = (aresta1 * aresta2 * aresta3);

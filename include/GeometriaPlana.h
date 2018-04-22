@@ -55,30 +55,35 @@ public:
 	/**
 	* @brief Efetua os calculos relacionados ao triângulo
 	* @param[in] Recebe os atributos passados como parâmtros na execução
+	* @return
 	*/
 	void calcularTriangulo(char* argv[]);
 
 	/**
 	* @brief Efetua os calculos relacionados ao retângulo
 	* @param[in] Recebe os atributos passados como parâmtros na execução
+	* @return
 	*/
 	void calcularRetangulo(char* argv[]);
 
 	/**
 	* @brief Efetua os calculos relacionados ao quadrado
 	* @param[in] Recebe os atributos passados como parâmtros na execução
+	* @return
 	*/
 	void calcularQuadrado(char* argv[]);
 
 	/**
 	* @brief Efetua os calculos relacionados ao circulo
 	* @param[in] Recebe os atributos passados como parâmtros na execução
+	* @return
 	*/
 	void calcularCirculo(char* argv[]);
 
 	/**
 	* @brief Efetua o print dos calculos
 	* @param[in] string contendo a forma geométrica
+	* @return
 	*/
 	void print(string &formaGeometrica);
 };

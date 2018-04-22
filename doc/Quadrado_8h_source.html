@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>GeoCalc: Código-Fonte de include/Quadrado.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GeoCalc
+   </div>
+   <div id="projectbrief">Calculo geométrico de figuras planas e espaciais</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Membros&#160;dos&#160;Arquivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Quadrado.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Quadrado_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef INCLUDE_QUADRADO_H_ </span></div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="Quadrado_8h.html#a2993111c4fd2f2c7911e4af5ae81fc8f">   10</a></span>&#160;<span class="preprocessor">#define INCLUDE_QUADRADO_H_ </span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;iostream&gt; </span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;cmath&gt; </span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">using namespace std;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classQuadrado.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="classQuadrado.html">Quadrado</a> {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">private</span>: </div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">float</span> area; </div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">float</span> perimetro; </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>: </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="classQuadrado.html#a8d5484ac90707904867e84beca0a390d">Quadrado</a>(); </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classQuadrado.html#ae3f2e0aad221923909523240b2d76390">~Quadrado</a>(); </div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classQuadrado.html#a123d41a6481f75d209a87c54d292604f">getArea</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classQuadrado.html#a08c77b4ec2751d2d2b31d65e6d07f7ae">getPerimetro</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQuadrado.html#a92bf7ed0408cb779896872e925e61e8d">calcularArea</a>(<span class="keywordtype">float</span> &amp;lado);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classQuadrado.html#a998317ee5ddfa69ce9a6bd04e32fe9f0">calcularPerimetro</a>(<span class="keywordtype">float</span> &amp;lado);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">friend</span> ostream&amp; <a class="code" href="classQuadrado.html#ae5c0e124b0329406f235466bf1ceb8ef">operator&lt;&lt;</a>(ostream &amp;o, <a class="code" href="classQuadrado.html">Quadrado</a> <span class="keyword">const</span> q);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classQuadrado_html_a8d5484ac90707904867e84beca0a390d"><div class="ttname"><a href="classQuadrado.html#a8d5484ac90707904867e84beca0a390d">Quadrado::Quadrado</a></div><div class="ttdeci">Quadrado()</div><div class="ttdoc">Construtor do objeto. </div><div class="ttdef"><b>Definition:</b> Quadrado.cpp:13</div></div>
+<div class="ttc" id="classQuadrado_html_a92bf7ed0408cb779896872e925e61e8d"><div class="ttname"><a href="classQuadrado.html#a92bf7ed0408cb779896872e925e61e8d">Quadrado::calcularArea</a></div><div class="ttdeci">void calcularArea(float &amp;lado)</div><div class="ttdoc">Efetua o calculo da área. </div><div class="ttdef"><b>Definition:</b> Quadrado.cpp:46</div></div>
+<div class="ttc" id="classQuadrado_html_a998317ee5ddfa69ce9a6bd04e32fe9f0"><div class="ttname"><a href="classQuadrado.html#a998317ee5ddfa69ce9a6bd04e32fe9f0">Quadrado::calcularPerimetro</a></div><div class="ttdeci">void calcularPerimetro(float &amp;lado)</div><div class="ttdoc">Efetua o calculo do perímetro. </div><div class="ttdef"><b>Definition:</b> Quadrado.cpp:55</div></div>
+<div class="ttc" id="classQuadrado_html_ae5c0e124b0329406f235466bf1ceb8ef"><div class="ttname"><a href="classQuadrado.html#ae5c0e124b0329406f235466bf1ceb8ef">Quadrado::operator&lt;&lt;</a></div><div class="ttdeci">friend ostream &amp; operator&lt;&lt;(ostream &amp;o, Quadrado const q)</div><div class="ttdoc">Efetua a sobrecarga do operador &lt;&lt;. </div><div class="ttdef"><b>Definition:</b> Quadrado.cpp:65</div></div>
+<div class="ttc" id="classQuadrado_html"><div class="ttname"><a href="classQuadrado.html">Quadrado</a></div><div class="ttdef"><b>Definition:</b> Quadrado.h:16</div></div>
+<div class="ttc" id="classQuadrado_html_a08c77b4ec2751d2d2b31d65e6d07f7ae"><div class="ttname"><a href="classQuadrado.html#a08c77b4ec2751d2d2b31d65e6d07f7ae">Quadrado::getPerimetro</a></div><div class="ttdeci">float getPerimetro() const </div><div class="ttdoc">Método de acesso para o perimetro. </div><div class="ttdef"><b>Definition:</b> Quadrado.cpp:37</div></div>
+<div class="ttc" id="classQuadrado_html_ae3f2e0aad221923909523240b2d76390"><div class="ttname"><a href="classQuadrado.html#ae3f2e0aad221923909523240b2d76390">Quadrado::~Quadrado</a></div><div class="ttdeci">virtual ~Quadrado()</div><div class="ttdoc">Destrutor do objeto. </div><div class="ttdef"><b>Definition:</b> Quadrado.cpp:21</div></div>
+<div class="ttc" id="classQuadrado_html_a123d41a6481f75d209a87c54d292604f"><div class="ttname"><a href="classQuadrado.html#a123d41a6481f75d209a87c54d292604f">Quadrado::getArea</a></div><div class="ttdeci">float getArea() const </div><div class="ttdoc">Método de acesso para a Área. </div><div class="ttdef"><b>Definition:</b> Quadrado.cpp:29</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

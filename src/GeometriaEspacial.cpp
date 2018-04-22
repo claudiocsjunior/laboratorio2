@@ -50,6 +50,7 @@ GeometriaEspacial::~GeometriaEspacial() {
 /**
 * @brief Gerência os métodos para execução dos cálculos para a pirâmide
 * @param[in] Recebe os atributos passados como parâmtros na execução
+* @return
 */
 void GeometriaEspacial::calcularPiramide(char* argv[]) {
 	float areaBase, areaLateral, altura;
@@ -74,6 +75,7 @@ const Paralelepipedo& GeometriaEspacial::getParalelepipedo() const {
 /**
 * @brief Gerência os métodos para execução dos cálculos para o cubo
 * @param[in] Recebe os atributos passados como parâmtros na execução
+* @return
 */
 void GeometriaEspacial::calcularCubo(char* argv[]) {
 	float aresta;
@@ -88,6 +90,7 @@ void GeometriaEspacial::calcularCubo(char* argv[]) {
 /**
 * @brief Gerência os métodos para execução dos cálculos para o paralelepipedo
 * @param[in] Recebe os atributos passados como parâmtros na execução
+* @return
 */
 void GeometriaEspacial::calcularParalelepipedo(char* argv[]) {
 	float aresta1, aresta2, aresta3;
@@ -104,6 +107,7 @@ void GeometriaEspacial::calcularParalelepipedo(char* argv[]) {
 /**
 * @brief Efetua o print dos calculos de acordo com a forma geométrica
 * @param[in] string contendo a forma geométrica
+* @return
 */
 void GeometriaEspacial::print(string& formaGeometrica) {
 	if(formaGeometrica == "piramide")
@@ -119,6 +123,7 @@ void GeometriaEspacial::print(string& formaGeometrica) {
 /**
 * @brief Gerência os métodos para execução dos cálculos para a esfera
 * @param[in] Recebe os atributos passados como parâmtros na execução
+* @return
 */
 void GeometriaEspacial::calcularEsfera(char* argv[]) {
 	float raio;

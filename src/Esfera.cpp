@@ -42,6 +42,7 @@ float Esfera::getVolume() const {
 /**
 * @brief Efetua o calculo da área
 * @param[in] raio para efetuar o calculo
+* @return
 */
 void Esfera::calcularArea(float& raio) {
 	area = (4*(PI*(pow(raio, 2))));
@@ -50,6 +51,7 @@ void Esfera::calcularArea(float& raio) {
 /**
 * @brief Efetua o calculo do volume
 * @param[in] raio para efetuar o calculo
+* @return
 */
 void Esfera::calcularVolume(float& raio) {
 	float num = (float)4/3;

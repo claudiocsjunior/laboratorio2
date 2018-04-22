@@ -36,14 +36,14 @@ public: /**< Local para declaração de métodos e atributos públicos*/
 	/**
 	* @brief Efetua o calculo da área
 	* @param[in] Aresta para efetuar o calculo
-	* @return valor da área
+	* @return 
 	*/
 	void calcularArea(float &aresta);
 
 	/**
 	* @brief Efetua o calculo do volume
 	* @param[in] Aresta para efetuar o calculo
-	* @return valor do volume
+	* @return 
 	*/
 	void calcularVolume(float &aresta); /**< Método que efetua o cálculo do perímetro*/
 

@@ -1,0 +1,8 @@
+PROJECT_NAME = "GeoCalc"
+PROJECT_BRIEF = "Calculo geométrico de figuras planas e espaciais"
+OUTPUT_DIRECTORY = 
+OUTPUT_LANGUAGE = Brazilian
+RECURSIVE = YES
+GENERATE_HTML = YES
+HTML_OUTPUT = ./doc
+GENERATE_LATEX = NO

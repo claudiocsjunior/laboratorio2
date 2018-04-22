@@ -36,6 +36,7 @@ public: /**< Local para declaração de métodos e atributos públicos*/
 	* @brief Efetua o calculo da área
 	* @param[in] base para efetuar o calculo
 	* @param[in] altura para efetuar o calculo
+	* @return
 	*/
 	void calcularArea(float &base, float &altura);
 
@@ -44,6 +45,7 @@ public: /**< Local para declaração de métodos e atributos públicos*/
 	* @param[in] lado1 para efetuar o calculo
 	* @param[in] lado2 para efetuar o calculo
 	* @param[in] lado3 para efetuar o calculo
+	* @return
 	*/
 	void calcularPerimetro(float &lado1, float &lado2, float &lado3);
 

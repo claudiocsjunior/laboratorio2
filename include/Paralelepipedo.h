@@ -37,6 +37,7 @@ public: /**< Local para declaração de métodos e atributos públicos*/
 	* @param[in] Aresta1 para efetuar o calculo
 	* @param[in] Aresta2 para efetuar o calculo
 	* @param[in] Aresta3 para efetuar o calculo
+	* @return
 	*/
 	void calcularArea(float &aresta1, float &aresta2, float &aresta3);
 
@@ -45,6 +46,7 @@ public: /**< Local para declaração de métodos e atributos públicos*/
 	* @param[in] Aresta1 para efetuar o calculo
 	* @param[in] Aresta2 para efetuar o calculo
 	* @param[in] Aresta3 para efetuar o calculo
+	* @return
 	*/
 	void calcularVolume(float &aresta1, float &aresta2, float &aresta3);
 

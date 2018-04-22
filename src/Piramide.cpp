@@ -42,6 +42,7 @@ Piramide::~Piramide() {
 * @brief Efetua o calculo da área
 * @param[in] área da base para efetuar o calculo
 * @param[in] área lateral para efetuar o calculo
+* @return
 */
 void Piramide::calcularArea(float& areaBase, float& areaLateral) {
 	area = areaBase + areaLateral;
@@ -51,6 +52,7 @@ void Piramide::calcularArea(float& areaBase, float& areaLateral) {
 * @brief Efetua o calculo do volume
 * @param[in] área da base para efetuar o calculo
 * @param[in] altura para efetuar o calculo
+* @return
 */
 void Piramide::calcularVolume(float& areaBase, float& altura) {
 	volume = (float)((areaBase * altura)/3);

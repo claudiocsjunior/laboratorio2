@@ -43,6 +43,7 @@ float Triangulo::getPerimetro() const {
 * @brief Efetua o calculo da área
 * @param[in] base para efetuar o calculo
 * @param[in] altura para efetuar o calculo
+* @return
 */
 void Triangulo::calcularArea(float &base, float &altura){
 	area = ((base * altura)/2);
@@ -53,6 +54,7 @@ void Triangulo::calcularArea(float &base, float &altura){
 * @param[in] lado1 para efetuar o calculo
 * @param[in] lado2 para efetuar o calculo
 * @param[in] lado3 para efetuar o calculo
+* @return
 */
 void Triangulo::calcularPerimetro(float &lado1, float &lado2, float &lado3){
 	perimetro = (lado1 + lado2 + lado3);

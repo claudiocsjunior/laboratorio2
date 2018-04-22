@@ -50,6 +50,7 @@ Triangulo GeometriaPlana::getTriangulo(){
 /**
 * @brief Gerência os métodos para execução dos cálculos para o retângulo
 * @param[in] Recebe os atributos passados como parâmtros na execução
+* @return
 */
 void GeometriaPlana::calcularRetangulo(char* argv[]) {
 	float base, altura;
@@ -65,6 +66,7 @@ void GeometriaPlana::calcularRetangulo(char* argv[]) {
 /**
 * @brief Gerência os métodos para execução dos cálculos para o quadrado
 * @param[in] Recebe os atributos passados como parâmtros na execução
+* @return
 */
 void GeometriaPlana::calcularQuadrado(char* argv[]) {
 	float lado;
@@ -79,6 +81,7 @@ void GeometriaPlana::calcularQuadrado(char* argv[]) {
 /**
 * @brief Efetua o print dos calculos de acordo com a forma geométrica
 * @param[in] string contendo a forma geométrica
+* @return
 */
 void GeometriaPlana::print(string &formaGeometrica){
 	if(formaGeometrica == "triangulo")
@@ -94,6 +97,7 @@ void GeometriaPlana::print(string &formaGeometrica){
 /**
 * @brief Gerência os métodos para execução dos cálculos para o triângulo
 * @param[in] Recebe os atributos passados como parâmtros na execução
+* @return
 */
 void GeometriaPlana::calcularTriangulo(char* argv[]){
 	float base, altura, lado1, lado2, lado3;
@@ -119,6 +123,7 @@ GeometriaPlana::~GeometriaPlana() {
 /**
 * @brief Gerência os métodos para execução dos cálculos para o circulo
 * @param[in] Recebe os atributos passados como parâmtros na execução
+* @return
 */
 void GeometriaPlana::calcularCirculo(char* argv[]) {
 	float raio;

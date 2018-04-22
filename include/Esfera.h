@@ -38,14 +38,14 @@ public: /**< Local para declaração de métodos e atributos públicos*/
 	/**
 	* @brief Efetua o calculo da área
 	* @param[in] Raio para efetuar o calculo
-	* @return valor da área
+	* @return 
 	*/
 	void calcularArea(float &raio);
 
 	/**
 	* @brief Efetua o calculo do volume
 	* @param[in] Raio para efetuar o calculo
-	* @return valor do volume
+	* @return 
 	*/
 	void calcularVolume(float &raio);
 

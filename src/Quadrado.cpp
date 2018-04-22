@@ -41,6 +41,7 @@ float Quadrado::getPerimetro() const {
 /**
 * @brief Efetua o calculo da área
 * @param[in] lado para efetuar o calculo
+* @return
 */
 void Quadrado::calcularArea(float& lado) {
 	area = pow(lado, 2);
@@ -49,6 +50,7 @@ void Quadrado::calcularArea(float& lado) {
 /**
 * @brief Efetua o calculo do perímetro
 * @param[in] lado para efetuar o calculo
+* @return
 */
 void Quadrado::calcularPerimetro(float& lado) {
 	perimetro = (4*lado);

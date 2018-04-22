@@ -1,0 +1,14 @@
+digraph "include/Quadrado.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="include/Quadrado.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="include/GeometriaPlana.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$GeometriaPlana_8h.html",tooltip="Classe responsável por gerenciar os cálculos da geometria plana. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="src/GeometriaPlana.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$GeometriaPlana_8cpp.html",tooltip="Responsável pelo gerenciamento das figuras planas. "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="src/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html",tooltip="Responsável por iniciar o projeto. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/Quadrado.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Quadrado_8cpp.html",tooltip="Responsável pelo calculo da área e perìmetro do quadrado. "];
+}

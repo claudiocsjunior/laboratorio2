@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>GeoCalc: Código-Fonte de include/GeometriaPlana.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GeoCalc
+   </div>
+   <div id="projectbrief">Calculo geométrico de figuras planas e espaciais</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Membros&#160;dos&#160;Arquivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">GeometriaPlana.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="GeometriaPlana_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef INCLUDE_GEOMETRIAPLANA_H_ </span></div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="GeometriaPlana_8h.html#ac5d48b9610696a98e2fddb00b2815b34">   10</a></span>&#160;<span class="preprocessor">#define INCLUDE_GEOMETRIAPLANA_H_ </span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;string&gt; </span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;Circulo.h&quot; </span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;Quadrado.h&quot; </span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;Retangulo.h&quot; </span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;Triangulo.h&quot; </span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">using namespace std;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classGeometriaPlana.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classGeometriaPlana.html">GeometriaPlana</a> {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>: </div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="classTriangulo.html">Triangulo</a> triangulo;  </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="classQuadrado.html">Quadrado</a> quadrado; </div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="classCirculo.html">Circulo</a> circulo;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="classRetangulo.html">Retangulo</a> retangulo; </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="classGeometriaPlana.html#a0e36db5e27e34dec3a3602fd8f594cf6">GeometriaPlana</a>();  </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classGeometriaPlana.html#af410ef241d98a9d625abdc1b36ae2926">~GeometriaPlana</a>();  </div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="classCirculo.html">Circulo</a> <a class="code" href="classGeometriaPlana.html#a6121d412fbd81af3a71855230b3cd351">getCirculo</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="classQuadrado.html">Quadrado</a> <a class="code" href="classGeometriaPlana.html#a9c157840c527375582f08d0d711e5686">getQuadrado</a>();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="classRetangulo.html">Retangulo</a> <a class="code" href="classGeometriaPlana.html#aafb63f082e64db767110657e83ba8c71">getRetangulo</a>();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="classTriangulo.html">Triangulo</a> <a class="code" href="classGeometriaPlana.html#a8dd5058bb9bb081aff64a5c29bd12fef">getTriangulo</a>();</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classGeometriaPlana.html#a08cb6589b1731bf1916a5c213881e42e">calcularTriangulo</a>(<span class="keywordtype">char</span>* argv[]);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classGeometriaPlana.html#a6c547454631ac58f0b36d579a8fef35b">calcularRetangulo</a>(<span class="keywordtype">char</span>* argv[]);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classGeometriaPlana.html#aab0e9a99f43ffd1771518b32742cda10">calcularQuadrado</a>(<span class="keywordtype">char</span>* argv[]);</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classGeometriaPlana.html#a8d231272943aecc22ddd424a8ed64fda">calcularCirculo</a>(<span class="keywordtype">char</span>* argv[]);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classGeometriaPlana.html#ab52330dc74ff4aed13ad3c9103aea5b5">print</a>(<span class="keywordtype">string</span> &amp;formaGeometrica);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;};</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classGeometriaPlana_html"><div class="ttname"><a href="classGeometriaPlana.html">GeometriaPlana</a></div><div class="ttdef"><b>Definition:</b> GeometriaPlana.h:21</div></div>
+<div class="ttc" id="classGeometriaPlana_html_a8d231272943aecc22ddd424a8ed64fda"><div class="ttname"><a href="classGeometriaPlana.html#a8d231272943aecc22ddd424a8ed64fda">GeometriaPlana::calcularCirculo</a></div><div class="ttdeci">void calcularCirculo(char *argv[])</div><div class="ttdoc">Efetua os calculos relacionados ao circulo. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:128</div></div>
+<div class="ttc" id="classGeometriaPlana_html_a8dd5058bb9bb081aff64a5c29bd12fef"><div class="ttname"><a href="classGeometriaPlana.html#a8dd5058bb9bb081aff64a5c29bd12fef">GeometriaPlana::getTriangulo</a></div><div class="ttdeci">Triangulo getTriangulo()</div><div class="ttdoc">Método de acesso para o atributo triângulo. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:46</div></div>
+<div class="ttc" id="classRetangulo_html"><div class="ttname"><a href="classRetangulo.html">Retangulo</a></div><div class="ttdef"><b>Definition:</b> Retangulo.h:15</div></div>
+<div class="ttc" id="classGeometriaPlana_html_a6c547454631ac58f0b36d579a8fef35b"><div class="ttname"><a href="classGeometriaPlana.html#a6c547454631ac58f0b36d579a8fef35b">GeometriaPlana::calcularRetangulo</a></div><div class="ttdeci">void calcularRetangulo(char *argv[])</div><div class="ttdoc">Efetua os calculos relacionados ao retângulo. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:55</div></div>
+<div class="ttc" id="classGeometriaPlana_html_aab0e9a99f43ffd1771518b32742cda10"><div class="ttname"><a href="classGeometriaPlana.html#aab0e9a99f43ffd1771518b32742cda10">GeometriaPlana::calcularQuadrado</a></div><div class="ttdeci">void calcularQuadrado(char *argv[])</div><div class="ttdoc">Efetua os calculos relacionados ao quadrado. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:71</div></div>
+<div class="ttc" id="classCirculo_html"><div class="ttname"><a href="classCirculo.html">Circulo</a></div><div class="ttdef"><b>Definition:</b> Circulo.h:18</div></div>
+<div class="ttc" id="classGeometriaPlana_html_ab52330dc74ff4aed13ad3c9103aea5b5"><div class="ttname"><a href="classGeometriaPlana.html#ab52330dc74ff4aed13ad3c9103aea5b5">GeometriaPlana::print</a></div><div class="ttdeci">void print(string &amp;formaGeometrica)</div><div class="ttdoc">Efetua o print dos calculos. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:86</div></div>
+<div class="ttc" id="classGeometriaPlana_html_a08cb6589b1731bf1916a5c213881e42e"><div class="ttname"><a href="classGeometriaPlana.html#a08cb6589b1731bf1916a5c213881e42e">GeometriaPlana::calcularTriangulo</a></div><div class="ttdeci">void calcularTriangulo(char *argv[])</div><div class="ttdoc">Efetua os calculos relacionados ao triângulo. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:102</div></div>
+<div class="ttc" id="classGeometriaPlana_html_af410ef241d98a9d625abdc1b36ae2926"><div class="ttname"><a href="classGeometriaPlana.html#af410ef241d98a9d625abdc1b36ae2926">GeometriaPlana::~GeometriaPlana</a></div><div class="ttdeci">virtual ~GeometriaPlana()</div><div class="ttdoc">Destrutor do objeto. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:119</div></div>
+<div class="ttc" id="classQuadrado_html"><div class="ttname"><a href="classQuadrado.html">Quadrado</a></div><div class="ttdef"><b>Definition:</b> Quadrado.h:16</div></div>
+<div class="ttc" id="classTriangulo_html"><div class="ttname"><a href="classTriangulo.html">Triangulo</a></div><div class="ttdef"><b>Definition:</b> Triangulo.h:15</div></div>
+<div class="ttc" id="classGeometriaPlana_html_a0e36db5e27e34dec3a3602fd8f594cf6"><div class="ttname"><a href="classGeometriaPlana.html#a0e36db5e27e34dec3a3602fd8f594cf6">GeometriaPlana::GeometriaPlana</a></div><div class="ttdeci">GeometriaPlana()</div><div class="ttdoc">Construtor do objeto. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:13</div></div>
+<div class="ttc" id="classGeometriaPlana_html_aafb63f082e64db767110657e83ba8c71"><div class="ttname"><a href="classGeometriaPlana.html#aafb63f082e64db767110657e83ba8c71">GeometriaPlana::getRetangulo</a></div><div class="ttdeci">Retangulo getRetangulo()</div><div class="ttdoc">Método de acesso para o atributo retângulo. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:38</div></div>
+<div class="ttc" id="classGeometriaPlana_html_a6121d412fbd81af3a71855230b3cd351"><div class="ttname"><a href="classGeometriaPlana.html#a6121d412fbd81af3a71855230b3cd351">GeometriaPlana::getCirculo</a></div><div class="ttdeci">Circulo getCirculo()</div><div class="ttdoc">Método de acesso para o atributo cieculo. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:22</div></div>
+<div class="ttc" id="classGeometriaPlana_html_a9c157840c527375582f08d0d711e5686"><div class="ttname"><a href="classGeometriaPlana.html#a9c157840c527375582f08d0d711e5686">GeometriaPlana::getQuadrado</a></div><div class="ttdeci">Quadrado getQuadrado()</div><div class="ttdoc">Método de acesso para o atributo quadrado. </div><div class="ttdef"><b>Definition:</b> GeometriaPlana.cpp:30</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

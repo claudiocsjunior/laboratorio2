@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>GeoCalc: Código-Fonte de include/Retangulo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GeoCalc
+   </div>
+   <div id="projectbrief">Calculo geométrico de figuras planas e espaciais</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Membros&#160;dos&#160;Arquivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Retangulo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Retangulo_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef INCLUDE_RETANGULO_H_ </span></div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="Retangulo_8h.html#ab0e08297e24ca0c2c7124cb9211bc727">   10</a></span>&#160;<span class="preprocessor">#define INCLUDE_RETANGULO_H_ </span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;iostream&gt; </span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">using namespace std;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classRetangulo.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classRetangulo.html">Retangulo</a> {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">private</span>: </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">float</span> area; </div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">float</span> perimetro; </div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>: </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="classRetangulo.html#ac21a81cae046920c8bee401bcb879562">Retangulo</a>(); </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classRetangulo.html#a52b1a7f23e13a531a30526825b164615">~Retangulo</a>(); </div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classRetangulo.html#ae1fbe219751ca02eb107c366f7ea3062">getArea</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classRetangulo.html#a0e690f76974ef0793f6b05a07427a774">getPerimetro</a>() <span class="keyword">const</span>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classRetangulo.html#a45d995d772d01c8ec324d69ae3bc85c8">calcularArea</a>(<span class="keywordtype">float</span> &amp;base, <span class="keywordtype">float</span> &amp;altura);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classRetangulo.html#a65e49529260062c003987fb8041667fd">calcularPerimetro</a>(<span class="keywordtype">float</span> &amp;base, <span class="keywordtype">float</span> &amp;altura);</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">friend</span> ostream&amp; <a class="code" href="classRetangulo.html#a0777dd2de7657e4818ac85be37987ef4">operator&lt;&lt;</a>(ostream &amp;o, <a class="code" href="classRetangulo.html">Retangulo</a> <span class="keyword">const</span> r);</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;};</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* INCLUDE_RETANGULO_H_ */</span><span class="preprocessor"></span></div><div class="ttc" id="classRetangulo_html_ae1fbe219751ca02eb107c366f7ea3062"><div class="ttname"><a href="classRetangulo.html#ae1fbe219751ca02eb107c366f7ea3062">Retangulo::getArea</a></div><div class="ttdeci">float getArea() const </div><div class="ttdoc">Método de acesso para a Área. </div><div class="ttdef"><b>Definition:</b> Retangulo.cpp:30</div></div>
+<div class="ttc" id="classRetangulo_html"><div class="ttname"><a href="classRetangulo.html">Retangulo</a></div><div class="ttdef"><b>Definition:</b> Retangulo.h:15</div></div>
+<div class="ttc" id="classRetangulo_html_ac21a81cae046920c8bee401bcb879562"><div class="ttname"><a href="classRetangulo.html#ac21a81cae046920c8bee401bcb879562">Retangulo::Retangulo</a></div><div class="ttdeci">Retangulo()</div><div class="ttdoc">Construtor do objeto. </div><div class="ttdef"><b>Definition:</b> Retangulo.cpp:14</div></div>
+<div class="ttc" id="classRetangulo_html_a45d995d772d01c8ec324d69ae3bc85c8"><div class="ttname"><a href="classRetangulo.html#a45d995d772d01c8ec324d69ae3bc85c8">Retangulo::calcularArea</a></div><div class="ttdeci">void calcularArea(float &amp;base, float &amp;altura)</div><div class="ttdoc">Efetua o calculo da área. </div><div class="ttdef"><b>Definition:</b> Retangulo.cpp:48</div></div>
+<div class="ttc" id="classRetangulo_html_a0e690f76974ef0793f6b05a07427a774"><div class="ttname"><a href="classRetangulo.html#a0e690f76974ef0793f6b05a07427a774">Retangulo::getPerimetro</a></div><div class="ttdeci">float getPerimetro() const </div><div class="ttdoc">Método de acesso para o perimetro. </div><div class="ttdef"><b>Definition:</b> Retangulo.cpp:38</div></div>
+<div class="ttc" id="classRetangulo_html_a52b1a7f23e13a531a30526825b164615"><div class="ttname"><a href="classRetangulo.html#a52b1a7f23e13a531a30526825b164615">Retangulo::~Retangulo</a></div><div class="ttdeci">virtual ~Retangulo()</div><div class="ttdoc">Destrutor do objeto. </div><div class="ttdef"><b>Definition:</b> Retangulo.cpp:22</div></div>
+<div class="ttc" id="classRetangulo_html_a65e49529260062c003987fb8041667fd"><div class="ttname"><a href="classRetangulo.html#a65e49529260062c003987fb8041667fd">Retangulo::calcularPerimetro</a></div><div class="ttdeci">void calcularPerimetro(float &amp;base, float &amp;altura)</div><div class="ttdoc">Efetua o calculo do perímetro. </div><div class="ttdef"><b>Definition:</b> Retangulo.cpp:58</div></div>
+<div class="ttc" id="classRetangulo_html_a0777dd2de7657e4818ac85be37987ef4"><div class="ttname"><a href="classRetangulo.html#a0777dd2de7657e4818ac85be37987ef4">Retangulo::operator&lt;&lt;</a></div><div class="ttdeci">friend ostream &amp; operator&lt;&lt;(ostream &amp;o, Retangulo const r)</div><div class="ttdoc">Efetua a sobrecarga do operador &lt;&lt;. </div><div class="ttdef"><b>Definition:</b> Retangulo.cpp:68</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

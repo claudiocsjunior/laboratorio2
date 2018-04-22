@@ -42,6 +42,7 @@ float Cubo::getVolume() const {
 /**
 * @brief Efetua o calculo da área
 * @param[in] aresta para efetuar o calculo
+* @return
 */
 void Cubo::calcularArea(float& aresta) {
 	area  = 6*(pow(aresta, 2));
@@ -50,6 +51,7 @@ void Cubo::calcularArea(float& aresta) {
 /**
 * @brief Efetua o calculo do volume
 * @param[in] aresta para efetuar o calculo
+* @return
 */
 void Cubo::calcularVolume(float& aresta) {
 	volume = pow(aresta, 3);
