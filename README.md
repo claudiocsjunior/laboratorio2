@@ -11,30 +11,30 @@ execute o programa sem parâmetros adicionais, que será listado todos os parâm
 Exemplo: Rodando o programa sem parâmetros.
          ./bin/executável
 	
-         Será retornado os dados abaixo:
+Será retornado os dados abaixo:
 	
-         <<<<<INSTRUÇÕES DE USO>>>>>
+<<<<<INSTRUÇÕES DE USO>>>>>
 	
-         - FIGURAS PLANAS:
+- FIGURAS PLANAS:
           
-	 - triangulo base altura lado1 lado2 lado3
-          
-	 - retangulo base altura
-          
-	 - quadrado lado
-          
-	 - circulo raio
-         
-	- FIGURAS ESPACIAIS:
-         
-	- piramide areaBase areaLateral altura
-         
-	- cubo aresta
-         
-	- paralelepipedo aresta1 aresta2 aresta3
-         
-	- esfera raio
-         
-	Agora, basta rodar o programa passando os parâmetros:
-         
-	exemplo: ./bin/executavel triangulo 2 3 3 4 5;
+ - triangulo base altura lado1 lado2 lado3
+
+ - retangulo base altura
+
+ - quadrado lado
+
+ - circulo raio
+
+- FIGURAS ESPACIAIS:
+
+- piramide areaBase areaLateral altura
+
+- cubo aresta
+
+- paralelepipedo aresta1 aresta2 aresta3
+
+- esfera raio
+
+Agora, basta rodar o programa passando os parâmetros:
+
+exemplo: ./bin/executavel triangulo 2 3 3 4 5;
