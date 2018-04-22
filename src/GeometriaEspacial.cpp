@@ -1,33 +1,56 @@
-/*
- * GeometriaEspacial.cpp
- *
- *  Created on: 21/04/2018
- *      Author: claudio
- */
+/**
+* @file   GeometriaEspacial.cpp
+* @brief  Responsável pelo gerenciamento das figuras espaciais
+* @author Claudio da Cruz Silva Junior
+* @since  21/04/2018
+* @date   21/04/2018
+*/
 
-#include "../include/GeometriaEspacial.h"
+#include "../include/GeometriaEspacial.h" /**< Inclusão da Classe Geometria Espacial*/
 
+/**
+* @brief Construtor do objeto
+*/
 GeometriaEspacial::GeometriaEspacial() {
 	// TODO Auto-generated constructor stub
 
 }
 
+/**
+* @brief Método de acesso para o cubo
+* @return atributo cubo
+*/
 const Cubo& GeometriaEspacial::getCubo() const {
 	return cubo;
 }
 
+/**
+* @brief Método de acesso para a esfera
+* @return atributo esfera
+*/
 const Esfera& GeometriaEspacial::getEsfera() const {
 	return esfera;
 }
 
+/**
+* @brief Método de acesso para a pirâmide
+* @return atributo pirâmide
+*/
 const Piramide& GeometriaEspacial::getPiramide() const {
 	return piramide;
 }
 
+/**
+* @brief Destrutor do objeto
+*/
 GeometriaEspacial::~GeometriaEspacial() {
 	// TODO Auto-generated destructor stub
 }
 
+/**
+* @brief Gerência os métodos para execução dos cálculos para a pirâmide
+* @param[in] Recebe os atributos passados como parâmtros na execução
+*/
 void GeometriaEspacial::calcularPiramide(char* argv[]) {
 	float areaBase, areaLateral, altura;
 	areaBase = atof(argv[2]);
@@ -40,10 +63,18 @@ void GeometriaEspacial::calcularPiramide(char* argv[]) {
 	piramide = piramide_;
 }
 
+/**
+* @brief Método de acesso para o paralelepipedo
+* @return atributo paralelepipedo
+*/
 const Paralelepipedo& GeometriaEspacial::getParalelepipedo() const {
 	return paralelepipedo;
 }
 
+/**
+* @brief Gerência os métodos para execução dos cálculos para o cubo
+* @param[in] Recebe os atributos passados como parâmtros na execução
+*/
 void GeometriaEspacial::calcularCubo(char* argv[]) {
 	float aresta;
 	aresta = atof(argv[2]);
@@ -54,6 +85,10 @@ void GeometriaEspacial::calcularCubo(char* argv[]) {
 	cubo = cubo_;
 }
 
+/**
+* @brief Gerência os métodos para execução dos cálculos para o paralelepipedo
+* @param[in] Recebe os atributos passados como parâmtros na execução
+*/
 void GeometriaEspacial::calcularParalelepipedo(char* argv[]) {
 	float aresta1, aresta2, aresta3;
 	aresta1 = atof(argv[2]);
@@ -66,6 +101,10 @@ void GeometriaEspacial::calcularParalelepipedo(char* argv[]) {
 	paralelepipedo = paralelepipedo_;
 }
 
+/**
+* @brief Efetua o print dos calculos de acordo com a forma geométrica
+* @param[in] string contendo a forma geométrica
+*/
 void GeometriaEspacial::print(string& formaGeometrica) {
 	if(formaGeometrica == "piramide")
 		cout << piramide;
@@ -77,6 +116,10 @@ void GeometriaEspacial::print(string& formaGeometrica) {
 		cout << esfera;
 }
 
+/**
+* @brief Gerência os métodos para execução dos cálculos para a esfera
+* @param[in] Recebe os atributos passados como parâmtros na execução
+*/
 void GeometriaEspacial::calcularEsfera(char* argv[]) {
 	float raio;
 	raio = atof(argv[2]);

@@ -1,12 +1,26 @@
-#include <iostream>
-#include <cstdlib>
-#include "../include/GeometriaPlana.h"
-#include "../include/GeometriaEspacial.h"
-#include <string.h>
-#include <typeinfo>
-#include <cmath>
+/**
+* @file   main.cpp
+* @brief  Responsável por iniciar o projeto
+* @author Claudio da Cruz Silva Junior
+* @since  21/04/2018
+* @date   21/04/2018
+*/
+
+#include <iostream> /**< Inclusão da biblioteca iostream*/
+#include <cstdlib> /**< Inclusão da biblioteca cstdlib*/
+#include "../include/GeometriaPlana.h" /**< Inclusão da classe geometria plana*/
+#include "../include/GeometriaEspacial.h" /**< Inclusão da classe geometria Espacial*/
+#include <string.h> /**< Inclusão da biblioteca string*/
+#include <typeinfo> /**< Inclusão da biblioteca typeinfo*/
+#include <cmath> /**< Inclusão da biblioteca cmath*/
 using namespace std;
 
+/**
+* @brief Método que incia o projeto
+* @param[in] argc - total de argumentos passados
+* @param[in] argv[] - os arogumentos
+* @return atributo 0
+*/
 int main(int argc, char* argv[]){
 	if(argc > 1){
 		int tamanho = strlen(argv[1]);
